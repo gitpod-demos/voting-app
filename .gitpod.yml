@@ -15,8 +15,6 @@ tasks:
   - name: Run
     command: docker-compose -f docker-compose.yml up
     openMode: split-right
-  - name: Open readme
-    command: gp open README.md
 
 ports:
   - port: 5000
