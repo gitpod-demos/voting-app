@@ -5,6 +5,9 @@ tasks:
     init: |
       docker pull postgres:15-alpine
       docker-compose build
+      curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+      unzip awscliv2.zip
+      sudo ./aws/install
     command: |
       printf "Waiting for Voting App at $(gp url 5000) ...\n"
       gp ports await 5000
