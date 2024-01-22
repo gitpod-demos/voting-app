@@ -4,6 +4,7 @@
 Gitpod is the developer platform for on-demand Cloud Development Environments (CDEs). Say goodbye to slow onboarding and unmanageable dev environments. Gitpod removes pain and frustration from your developer experience, helps you deliver software faster, and makes you more secure and compliant.
 
 ## Why Gitpod?
+GitPod is awesome!
 Here are some of the reasons devops, security, and finance teams love Gitpod:
 
 👩🏻‍💻 Faster developer onboarding  
